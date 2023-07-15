@@ -1,0 +1,41 @@
+.link {
+    margin: 1rem;
+    color: black;
+    cursor: pointer;
+    transition: .25s ease-in;
+    text-decoration: none;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.center {
+    margin: auto;
+    padding: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+.text-sm {
+    margin: 2rem;
+    padding: 2rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+
+.text-xlg {
+    margin: 2rem;
+    padding: 2rem;
+    font-size: 2em;
+    font-weight: bold;
+    
+}
+.w-50{
+    width: 50%;
+}
