@@ -6,6 +6,10 @@
     text-decoration: none;
 }
 
+.mx-2 {
+    margin: 0 2rem 0 2rem;
+}
+
 .flex {
     display: flex;
     flex-wrap: wrap;
@@ -19,23 +23,41 @@
     text-align: center;
 }
 
-
-
-.text-sm {
-    margin: 2rem;
-    padding: 2rem;
+.text-sm{
     font-size: 0.8rem;
     font-weight: bold;
 }
-
 
 .text-xlg {
     margin: 2rem;
     padding: 2rem;
     font-size: 2em;
     font-weight: bold;
-    
+
 }
-.w-50{
+
+.w-50 {
     width: 50%;
 }
+
+@media (max-width:560px) {
+    .w-50 {
+        width: 100vw;
+    }
+
+    .text-xlg {
+        margin: 1rem;
+        padding: 1rem;
+        font-size: 1.3em;
+        font-weight: bold;
+    }
+}
+
+@media (max-width:244px) {
+    .text-xlg {
+        margin: 1rem;
+        padding: 1rem;
+        font-size: 1em;
+        font-weight: bold;
+    }
+} 
